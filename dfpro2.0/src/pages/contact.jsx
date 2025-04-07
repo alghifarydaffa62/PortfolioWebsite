@@ -1,9 +1,10 @@
 import '../App.css'
+import Navbar from '../component/navbar'
 
 export default function Contact() {
     return(
         <div>
-            <h1>CONTACT</h1>
+            <Navbar/>
         </div>
     )
 }
