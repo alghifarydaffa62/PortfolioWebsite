@@ -3,9 +3,9 @@ import '../App.css'
 
 export default function Navbar() {
   return (
-    <div className="px-8 py-3 bg-[#243B55] border-[2px] border-[#2D4364] rounded-full w-fit mx-auto">
+    <div className="mt-8 px-8 py-3 bg-[#243B55] border-[2px] border-[#2D4364] rounded-full w-fit mx-auto">
       <ul className="flex gap-8 justify-center list-none">
-        {['Home', 'About', 'Skill', 'Project', 'Contact'].map((item) => (
+        {['Home', 'About', 'Project', 'Contact'].map((item) => (
           <li key={item}>
             <Link
               to={`/${item === 'Home' ? '' : item}`}
