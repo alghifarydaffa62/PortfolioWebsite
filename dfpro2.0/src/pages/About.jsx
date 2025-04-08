@@ -1,6 +1,8 @@
 import '../App.css'
 import Navbar from '../component/navbar'
 import profile from '../assets/me.jpg'
+import AnimatedContent from '../animation/AnimatedContent/AnimatedContent'
+import PixelTransition from '../animation/PixelTransition/PixelTransition'
 
 export default function About() {
     return(
@@ -29,9 +31,34 @@ export default function About() {
                             like-minded developers to create impactful digital solutions.</p>
                     </div>
                 </div>
-                <div className="picture">
-                    <img src={profile} alt="" className='w-[23vw] h-[55vh] object-cover rounded-2xl'/>
-                </div>
+                
+                <PixelTransition
+                    firstContent={
+                        <img
+                        src={profile}
+                        alt="default pixel transition content, a cat!"
+                        style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                        />
+                    }
+                    secondContent={
+                        <div
+                        style={{
+                            width: "100%",
+                            height: "100%",
+                            display: "grid",
+                            placeItems: "center",
+                            backgroundColor: "#111"
+                        }}
+                        >
+                        <p style={{ fontWeight: 900, fontSize: "3rem", color: "#ffffff" }}>Hello!</p>
+                        </div>
+                    }
+                    gridSize={12}
+                    pixelColor='#ffffff'
+                    animationStepDuration={0.4}
+                    className="custom-pixel-card"
+                />
+                
             </div>
         </div>
     )
