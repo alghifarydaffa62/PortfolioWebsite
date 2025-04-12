@@ -4,6 +4,7 @@ import profile from '../assets/me.jpg'
 import AnimatedContent from '../animation/AnimatedContent/AnimatedContent'
 import PixelTransition from '../animation/PixelTransition/PixelTransition'
 import Expertise from '../component/expertise'
+import Service from '../component/service'
 
 export default function About() {
     return(
@@ -75,10 +76,8 @@ export default function About() {
                     animationStepDuration={0.4}
                     className="custom-pixel-card"
                 />
-
-                
             </div>
-            
+            <Service/>
         </div>
     )
 }
