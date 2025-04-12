@@ -7,9 +7,10 @@ import AnimatedContent from '../animation/AnimatedContent/AnimatedContent'
 export default function Service() {
     return(
         <div className="text-center text-white py-12 px-4">
-            <h1 className="text-3xl font-bold mb-10">Things I Can Do for You</h1>
-
-            <div className="flex flex-col md:flex-row justify-center gap-6 max-w-6xl mx-auto">
+            <h1 className="text-3xl font-bold">Things I Can Do for You</h1>
+            <p className='mt-3 text-sm text-gray-300'>Passionate about technology and design, I provide services that help<br/>your brand stand out and grow in the digital world.</p>
+            
+            <div className="flex flex-col md:flex-row justify-center gap-6 max-w-6xl mx-auto mt-10">
                 <div className="flex flex-col items-center text-center bg-[#243b55] rounded-2xl p-6 w-full md:w-1/3 shadow-lg">
                     <img src={web} alt="Web Development Icon" className="w-12 h-12 mb-4" />
                     <h2 className="text-xl font-semibold mb-2">Front End Web Development</h2>
