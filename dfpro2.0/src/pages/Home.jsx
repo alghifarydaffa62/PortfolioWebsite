@@ -4,6 +4,7 @@ import ethereum from '../assets/coins.png'
 import code from '../assets/code.png'
 import uiux from '../assets/programmer.png'
 import AnimatedContent from '../animation/AnimatedContent/AnimatedContent' 
+import { Link } from 'react-router-dom'
 
 export default function Home() {
     return(
@@ -35,10 +36,11 @@ export default function Home() {
                     config={{ tension: 80, friction: 20 }}
                     initialOpacity={0.2}
                     animateOpacity
-                    scale={1.1}
+                    scale={1}
                     threshold={0.2}
                     >
                     <div>
+                        <h1 className='text-3xl'>Hi, I'm Daffa👋🏻</h1>
                         <h1 className="text-7xl font-bold font-sans">
                             Welcome To My<br />
                             <span className="bg-gradient-to-r from-[#1c92d2] to-[#f2fcfe] bg-clip-text text-transparent">
@@ -47,9 +49,9 @@ export default function Home() {
                         </h1>
 
                     <div className="mt-6">
-                        <button className="px-6 py-3 text-white text-base font-medium bg-gradient-to-r from-[#1f2c4c] to-[#2d3f66] rounded-full shadow-md hover:from-[#2a3b59] hover:to-[#3a4e7a] transition-all duration-300 hover:scale-105">
+                        <Link to='/About' className="px-6 py-3 text-white text-base font-medium bg-gradient-to-r from-[#1f2c4c] to-[#2d3f66] rounded-full shadow-md hover:from-[#2a3b59] hover:to-[#3a4e7a] transition-all duration-300">
                         Know More About Me
-                        </button>
+                        </Link>
                     </div>
                     </div>
                 </AnimatedContent>
