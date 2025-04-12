@@ -6,7 +6,7 @@ import AnimatedContent from '../animation/AnimatedContent/AnimatedContent'
 
 export default function Service() {
     return(
-        <div className="text-center text-white py-12 px-4">
+        <div className="text-center text-white py-6 px-4 mb-5">
             <h1 className="text-3xl font-bold">Things I Can Do for You</h1>
             <p className='mt-3 text-sm text-gray-300'>Passionate about technology and design, I provide services that help<br/>your brand stand out and grow in the digital world.</p>
             

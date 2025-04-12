@@ -5,6 +5,7 @@ import AnimatedContent from '../animation/AnimatedContent/AnimatedContent'
 import PixelTransition from '../animation/PixelTransition/PixelTransition'
 import Expertise from '../component/expertise'
 import Service from '../component/service'
+import ShinyText from '../animation/ShinyText/ShinyText'
 
 export default function About() {
     return(
@@ -45,9 +46,26 @@ export default function About() {
                             </div>
                         </div>
                     </AnimatedContent>
-                    <div className="role">
-                        <Expertise/>
-                        </div>
+                    <div className="expert">
+                        <h1 className='text-[#6e92d6] font-semibold'>My Area of Focus</h1>
+
+                        <AnimatedContent
+                            distance={150}
+                            direction="horizontal"
+                            delay={50}
+                            reverse={false}
+                            config={{ tension: 80, friction: 20 }}
+                            initialOpacity={0.2}
+                            animateOpacity
+                            scale={1.1}
+                            threshold={0.2}
+                            >
+                                <div className='flex gap-3 mt-3'>
+                                    <ShinyText text="Front End Web Development" disabled={false} speed={3} className='custom-class' />                
+                                    <ShinyText text="Web3 Enthusiast" disabled={false} speed={3} className='custom-class' />                                
+                                </div>
+                        </AnimatedContent>
+                    </div>
                 </div>
                 
                 <PixelTransition
@@ -77,6 +95,7 @@ export default function About() {
                     className="custom-pixel-card"
                 />
             </div>
+            <Expertise/>
             <Service/>
         </div>
     )
