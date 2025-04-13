@@ -46,10 +46,7 @@ export default function About() {
                             </div>
                         </div>
                     </AnimatedContent>
-                    <div className="expert">
-                        <h1 className='text-[#6e92d6] font-semibold'>My Area of Focus</h1>
-
-                        <AnimatedContent
+                    <AnimatedContent
                             distance={150}
                             direction="horizontal"
                             delay={50}
@@ -60,12 +57,15 @@ export default function About() {
                             scale={1.1}
                             threshold={0.2}
                             >
+                            <div className="expert mt-3">
+                                <h1 className='text-[#6e92d6] font-semibold'>My Area of Focus</h1>
                                 <div className='flex gap-3 mt-3'>
                                     <ShinyText text="Front End Web Development" disabled={false} speed={3} className='custom-class' />                
                                     <ShinyText text="Web3 Enthusiast" disabled={false} speed={3} className='custom-class' />                                
                                 </div>
-                        </AnimatedContent>
-                    </div>
+                            </div>            
+                    </AnimatedContent>
+                    
                 </div>
                 
                 <PixelTransition
