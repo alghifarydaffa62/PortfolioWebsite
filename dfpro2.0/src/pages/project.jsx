@@ -50,7 +50,7 @@ export default function Project() {
                         >
                         <div className="flex justify-center gap-4 flex-wrap mt-8 mb-10">
                             {[
-                                { src: community, title: "Community Website", link: "/projects/community" },
+                                { src: community, title: "Community Website", link: "https://himitcommunity.vercel.app" },
                                 { src: mondsia, title: "My Wonderful Indonesia", link: "/projects/mondsia" },
                                 { src: water, title: "Life Below Water", link: "/projects/LifeBelowWater" },
                                 { src: SC, title: "Smanisda Cup", link: "/projects/SmanisdaCup" },
