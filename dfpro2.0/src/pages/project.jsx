@@ -50,18 +50,17 @@ export default function Project() {
                         >
                         <div className="flex justify-center gap-4 flex-wrap mt-8 mb-10">
                             {[
-                                { src: community, title: "Community Website", link: "https://himitcommunity.vercel.app" },
-                                { src: mondsia, title: "My Wonderful Indonesia", link: "/projects/mondsia" },
-                                { src: water, title: "Life Below Water", link: "/projects/LifeBelowWater" },
-                                { src: SC, title: "Smanisda Cup", link: "/projects/SmanisdaCup" },
-                                { src: brandIn, title: "Brand-in Aja", link: "/projects/brandinAja" },
-                                { src: movie, title: "Movie Hunter", link: "/projects/movie" }
+                                { src: community, title: "Community Website", link: "/Project/HimitCommunity" },
+                                { src: mondsia, title: "My Wonderful Indonesia", link: "/Project/Mondsia" },
+                                { src: water, title: "Life Below Water", link: "/Project/SDG" },
+                                { src: SC, title: "Smanisda Cup", link: "/Project/SC" },
+                                { src: brandIn, title: "Brand-in Aja", link: "/Project/BrandIn" },
+                                { src: movie, title: "Movie Hunter", link: "/Project/Movie" }
                             ].map((item, index) => (
                                 <a
                                     href={item.link}
                                     key={index}
                                     className="relative group w-[28vw] rounded-[1.2rem] overflow-hidden cursor-pointer block"
-                                    target="_blank"
                                     rel="noopener noreferrer"
                                 >
                                     <img
