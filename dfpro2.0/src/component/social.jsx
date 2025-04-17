@@ -6,7 +6,7 @@ import linkedIn from '../assets/linkedin.png'
 
 export default function Social() {
     return(
-        <div className="flex flex-wrap justify-center gap-6 px-4 py-8">
+        <div className="flex flex-wrap justify-center gap-6 px-4 py-6">
             {[
                 { name: 'Instagram', icon: instagram, url: 'https://www.instagram.com/df_webdev' },
                 { name: 'Fiverr', icon: fiverr, url: 'https://www.fiverr.com/username' },

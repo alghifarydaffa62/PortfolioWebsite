@@ -45,6 +45,9 @@ export default function BrandIn() {
                     </div>
                 </div>
             </div>
+            <footer className="text-center py-4 text-sm text-gray-400">
+            © 2025 dfpro2.0 . All Rights Reserved
+            </footer>
         </div>
     )
 }
