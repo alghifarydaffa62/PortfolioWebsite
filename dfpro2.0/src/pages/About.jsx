@@ -6,8 +6,13 @@ import PixelTransition from '../animation/PixelTransition/PixelTransition'
 import Expertise from '../component/expertise'
 import Service from '../component/service'
 import ShinyText from '../animation/ShinyText/ShinyText'
+import { useEffect } from 'react'
 
 export default function About() {
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, [])
+    
     return(
         <div>
             <Navbar/>

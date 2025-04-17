@@ -4,9 +4,14 @@ import ContactForm from '../component/formContact'
 import mail from '../assets/email.png'
 import Social from '../component/social'
 import FadeContent from '../animation/FadeContent/FadeContent'
-import AnimatedContent from '../animation/AnimatedContent/AnimatedContent'
+import { useEffect } from 'react'
 
 export default function Contact() {
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, [])
+    
     return(
         <div>
             <Navbar/>

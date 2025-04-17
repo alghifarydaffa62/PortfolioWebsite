@@ -9,8 +9,13 @@ import movie from '../assets/movie.png'
 import AnimatedContent from '../animation/AnimatedContent/AnimatedContent'
 import FadeContent from '../animation/FadeContent/FadeContent'
 import SmartContract from '../component/smartContract'
+import { useEffect } from 'react'
 
 export default function Project() {
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, [])
+    
     return(
         <div >
             <Navbar/>
