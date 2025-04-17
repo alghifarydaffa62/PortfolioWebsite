@@ -11,7 +11,7 @@ export default function Social() {
                 { name: 'Instagram', icon: instagram, url: 'https://www.instagram.com/df_webdev' },
                 { name: 'Fiverr', icon: fiverr, url: 'https://www.fiverr.com/username' },
                 { name: 'GitHub', icon: github, url: 'https://github.com/alghifarydaffa62' },
-                { name: 'LinkedIn', icon: linkedIn, url: 'https://www.linkedin.com/in/username' },
+                { name: 'LinkedIn', icon: linkedIn, url: 'https://www.linkedin.com/in/mdaffaalghifary' },
             ].map((item, idx) => (
                 <a
                 key={idx}
