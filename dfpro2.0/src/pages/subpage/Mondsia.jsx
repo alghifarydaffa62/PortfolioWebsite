@@ -17,14 +17,14 @@ export default function Mondsia() {
             
                 <div className='max-w-lg'>
                     <div className='flex items-center gap-3 mb-4'>
-                        <h1 className='font-bold text-2xl'>Mondsia</h1>
+                        <h1 className='font-bold text-3xl'>Mondsia</h1>
                         <span className='text-sm font-semibold px-3 py-1 bg-sky-700 rounded-full text-white'>
                             Individual Project
                         </span>
                     </div>
                                 
                     <p className='text-md text-justify'>
-                        This project is a cultural website that showcases the rich diversity of Indonesian heritage 
+                        My Wonderful Indonesia or <b>Mondsia</b> is a cultural website that showcases the rich diversity of Indonesian heritage 
                         across the six major islands: Sumatra, Java, Kalimantan, Sulawesi, Bali, and Papua. Each island 
                         section highlights traditional dances, unique traditional houses, and local customs or rituals 
                         that have been passed down through generations. The goal is to provide an engaging and educational platform that allows users to explore 

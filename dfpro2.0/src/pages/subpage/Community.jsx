@@ -17,7 +17,7 @@ export default function Community() {
 
                 <div className='max-w-lg'>
                     <div className='flex items-center gap-3 mb-4'>
-                        <h1 className='font-bold text-2xl'>Himit Community</h1>
+                        <h1 className='font-bold text-3xl'>Himit Community</h1>
                         <span className='text-sm font-semibold px-3 py-1 bg-emerald-700 rounded-full text-white'>
                         Team Project
                         </span>

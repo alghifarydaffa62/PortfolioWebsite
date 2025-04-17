@@ -17,20 +17,18 @@ export default function BrandIn() {
             
                 <div className='max-w-lg'>
                     <div className='flex items-center gap-3 mb-4'>
-                        <h1 className='font-bold text-2xl'>BrandIn Aja</h1>
+                        <h1 className='font-bold text-3xl'>BrandIn Aja</h1>
                         <span className='text-sm font-semibold px-3 py-1 bg-emerald-700 rounded-full text-white'>
                             Team Project
                         </span>
                     </div>
                                 
                     <p className='text-md text-justify'>
-                        This project is a responsive and informative website built for HIMIT PENS 
-                        (Informatics Engineering Student Association at PENS). The website serves as 
-                        a centralized platform that showcases detailed information about each community 
-                        within the organization. It includes sections for community profiles, activities, 
-                        achievements, and how to join. The goal is to make it easier for students to explore 
-                        and engage with communities that align with their interests, all in one accessible 
-                        platform. 
+                    BrandIn aja is a promotional platform that helps local tourism spots gain more exposure. 
+                    It’s designed specifically for lesser-known destinations that deserve more attention from 
+                    travelers. Through this platform, local owners can easily showcase their tourist spots 
+                    including descriptions, photos, facilities, and contact details. The goal is to support local tourism by connecting hidden gems with a wider audience, 
+                    helping communities grow economically and culturally through increased visitor engagement
                     </p>
                 
                     <h1 className='font-bold text-lg my-3'>Tech stack</h1>
