@@ -3,8 +3,8 @@ import '../App.css'
 
 export default function Navbar() {
   return (
-    <div className="mt-8 px-8 py-3 bg-[#243B55] border-[2px] border-[#2D4364] rounded-full w-fit mx-auto">
-      <ul className="flex gap-8 justify-center list-none">
+    <div className="mt-8 px-6 py-3 bg-[#243B55] border-2 border-[#2D4364] rounded-full w-fit mx-auto">
+      <ul className="flex flex-wrap gap-6 sm:gap-8 justify-center items-center list-none text-sm sm:text-base">
         {['Home', 'About', 'Project', 'Contact'].map((item) => (
           <li key={item}>
             <Link
@@ -17,5 +17,5 @@ export default function Navbar() {
         ))}
       </ul>
     </div>
-  );
+  )
 }

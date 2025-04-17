@@ -23,9 +23,14 @@ export default function Home() {
                     threshold={0.2}
                     >
                     <div className="icon flex justify-center gap-4 mb-4 cursor-pointer">
-                        <img src={code} alt="" className="w-14 h-14 p-2 bg-[#141e30] rounded-full transition-transform hover:scale-110" />
-                        <img src={ethereum} alt="" className="w-14 h-14 p-2 bg-[#141e30] rounded-full transition-transform hover:scale-110" />
-                        <img src={uiux} alt="" className="w-14 h-14 p-2 bg-[#141e30] rounded-full transition-transform hover:scale-110" />
+                        {[code, ethereum, uiux].map((icon, index) => (
+                            <img
+                                key={index}
+                                src={icon}
+                                alt="icon"
+                                className="w-12 h-12 p-2 bg-[#141e30] rounded-full transition-transform hover:scale-110"
+                            />
+                        ))}
                     </div>
                 </AnimatedContent>
                 
@@ -39,9 +44,9 @@ export default function Home() {
                     scale={1}
                     threshold={0.2}
                     >
-                    <div>
-                        <h1 className='text-3xl'>Hi, I'm Daffa👋🏻</h1>
-                        <h1 className="text-7xl font-bold font-sans">
+                    <div className="max-w-3xl w-full">
+                        <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl'>Hi, I'm Daffa👋🏻</h1>
+                        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-sans mt-2">
                             Welcome To My<br />
                             <span className="bg-gradient-to-r from-[#1c92d2] to-[#f2fcfe] bg-clip-text text-transparent">
                             Portfolio Website
