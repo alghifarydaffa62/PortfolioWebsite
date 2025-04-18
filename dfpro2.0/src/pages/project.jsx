@@ -20,7 +20,7 @@ export default function Project() {
         <div >
             <Navbar/>
 
-            <div className="text-white mt-10">
+            <div className="mt-10 px-4 md:px-10 lg:px-12 text-white">
                 <section>
                     <AnimatedContent
                         distance={120}
@@ -33,8 +33,8 @@ export default function Project() {
                         threshold={0.2}
                         >
                         <div>
-                            <h1 className="text-center text-3xl font-bold">Web Projects</h1>
-                            <p className="text-center mt-3 text-sm text-gray-300">
+                            <h1 className="text-center text-2xl font-bold md:text-2xl lg:text-3xl">Web Projects</h1>
+                            <p className="text-center mt-3 text-[11px] text-gray-300 md:text-sm lg-text-sm">
                                 A collection of web-based projects that demonstrate my front-end<br />
                                 skills, design sense, and focus on user experience.
                             </p>
@@ -58,7 +58,7 @@ export default function Project() {
                                 <a
                                     href={item.link}
                                     key={index}
-                                    className="relative group w-[28vw] rounded-[1.2rem] overflow-hidden cursor-pointer block"
+                                    className="relative group w-full sm:w-[48%] lg:w-[30%] xl:w-[28%] aspect-[4/3] rounded-2xl overflow-hidden block shadow-lg hover:shadow-xl transition-shadow duration-300"
                                     rel="noopener noreferrer"
                                 >
                                     <img
