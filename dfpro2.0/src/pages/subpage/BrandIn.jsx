@@ -20,39 +20,37 @@ export default function BrandIn() {
                 easing="ease-out"
                 initialOpacity={0}
             >
-                <div className='flex justify-center gap-10 my-15 text-white items-center'>
-                    <div>
-                        <Back/>
-                        <img src={brandIn} alt="" className='w-[45vw] rounded-xl mt-8'/>
+                <div className="flex flex-col lg:flex-row justify-center gap-10 my-10 text-white items-center px-4">
+                    <div className="w-full lg:w-[50%]">
+                        <Back />
+                        <img src={brandIn} alt="BrandIn project" className="w-full rounded-xl mt-8" />
                     </div>
-                                
-                
-                    <div className='max-w-lg'>
-                        <div className='flex items-center gap-3 mb-4'>
-                            <h1 className='font-bold text-3xl'>BrandIn Aja</h1>
-                            <span className='text-sm font-semibold px-3 py-1 bg-emerald-700 rounded-full text-white'>
-                                Team Project
+
+                    <div className="w-full lg:w-[50%] max-w-lg">
+                        <div className="flex items-center gap-3 mb-4 mt-6 lg:mt-0">
+                            <h1 className="font-bold text-3xl">BrandIn Aja</h1>
+                            <span className="text-sm font-semibold px-3 py-1 bg-emerald-700 rounded-full text-white">
+                            Team Project
                             </span>
                         </div>
-                                    
-                        <p className='text-md text-justify'>
-                        BrandIn aja is a promotional platform that helps local tourism spots gain more exposure. 
-                        It’s designed specifically for lesser-known destinations that deserve more attention from 
-                        travelers. Through this platform, local owners can easily showcase their tourist spots 
-                        including descriptions, photos, facilities, and contact details. The goal is to support local tourism by connecting hidden gems with a wider audience, 
-                        helping communities grow economically and culturally through increased visitor engagement
+
+                        <p className="text-md text-justify">
+                            BrandIn aja is a promotional platform that helps local tourism spots gain more exposure.
+                            It’s designed specifically for lesser-known destinations that deserve more attention from
+                            travelers. Through this platform, local owners can easily showcase their tourist spots
+                            including descriptions, photos, facilities, and contact details. The goal is to support local tourism by connecting hidden gems with a wider audience,
+                            helping communities grow economically and culturally through increased visitor engagement.
                         </p>
-                    
-                        <h1 className='font-bold text-lg my-3'>Tech stack</h1>
-                    
-                        <div className='flex gap-3'>
-                            <p className='py-1 px-3 bg-slate-700 rounded-full text-sm'>Figma</p>
+
+                        <h1 className="font-bold text-lg my-3">Tech stack</h1>
+                        <div className="flex flex-wrap gap-3">
+                            <p className="py-1 px-3 bg-slate-700 rounded-full text-sm">Figma</p>
                         </div>
-                    
-                        <div>
-                            <h1 className='font-bold text-lg my-3'>Project Link:</h1>
-                            <a href="" target="_blank"className='py-1 px-3 bg-slate-700 rounded-full text-lg'>
-                                figma link
+
+                        <div className="mt-4">
+                            <h1 className="font-bold text-lg mb-2">Project Link:</h1>
+                            <a href="" className='py-1 px-3 bg-red-700 rounded-full text-md'>
+                                Under Maintenance
                             </a>
                         </div>
                     </div>

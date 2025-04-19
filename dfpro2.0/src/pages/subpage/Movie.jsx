@@ -20,15 +20,15 @@ export default function Movie() {
                 easing="ease-out"
                 initialOpacity={0}
             >
-                <div className='flex justify-center gap-10 my-15 text-white items-center'>
-                    <div>
+                <div className='flex flex-col lg:flex-row justify-center gap-10 my-10 text-white items-center px-4'>
+                    <div className="w-full lg:w-[50%]">
                         <Back/>
-                        <img src={movie} alt="" className='w-[45vw] rounded-xl mt-8'/>
+                        <img src={movie} alt="" className='w-full rounded-xl mt-8'/>
                     </div>
                                 
                 
-                    <div className='max-w-lg'>
-                        <div className='flex items-center gap-3 mb-4'>
+                    <div className="w-full lg:w-[50%] max-w-lg">
+                        <div className="flex items-center gap-3 mb-4 mt-6 lg:mt-0">
                             <h1 className='font-bold text-3xl'>Movie Hunter</h1>
                             <span className='text-sm font-semibold px-3 py-1 bg-emerald-700 rounded-full text-white'>
                             Individual Project
@@ -54,8 +54,8 @@ export default function Movie() {
                 
                         <div>
                             <h1 className='font-bold text-lg my-3'>Project Link:</h1>
-                            <a href="" target="_blank"className='py-1 px-3 bg-slate-700 rounded-full text-md'>
-                            link dribble ?
+                            <a href="" className='py-1 px-3 bg-red-700 rounded-full text-md'>
+                                Under Maintenance
                             </a>
                         </div>
                     </div>

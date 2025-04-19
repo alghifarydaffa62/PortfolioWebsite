@@ -20,15 +20,15 @@ export default function Mondsia() {
                 easing="ease-out"
                 initialOpacity={0}
             >
-                <div className='flex justify-center gap-10 my-15 text-white items-center'>
-                    <div>
+                <div className='flex flex-col lg:flex-row justify-center gap-10 my-10 text-white items-center px-4'>
+                    <div className="w-full lg:w-[50%]">
                         <Back/>
-                        <img src={mondsia} alt="" className='w-[45vw] rounded-xl mt-8'/>
+                        <img src={mondsia} alt="" className='w-full rounded-xl mt-8'/>
                     </div>
                                 
                 
-                    <div className='max-w-lg'>
-                        <div className='flex items-center gap-3 mb-4'>
+                    <div className="w-full lg:w-[50%] max-w-lg">
+                        <div className="flex items-center gap-3 mb-4 mt-6 lg:mt-0">
                             <h1 className='font-bold text-3xl'>Mondsia</h1>
                             <span className='text-sm font-semibold px-3 py-1 bg-sky-700 rounded-full text-white'>
                                 Individual Project

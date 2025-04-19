@@ -20,16 +20,15 @@ export default function Community() {
                 easing="ease-out"
                 initialOpacity={0}
             >
-                <div className='flex justify-center gap-10 my-15 text-white items-center'>
-                    <div>
+                <div className='flex flex-col lg:flex-row justify-center gap-10 my-10 text-white items-center px-4'>
+                    <div className="w-full lg:w-[50%]">
                         <Back/>
-                        <img src={community} alt="" className='w-[45vw] rounded-xl mt-8'/>
+                        <img src={community} alt="" className="w-full rounded-xl mt-8"/>
                     </div>
-                    
 
-                    <div className='max-w-lg'>
-                        <div className='flex items-center gap-3 mb-4'>
-                            <h1 className='font-bold text-3xl'>Himit Community</h1>
+                    <div className="w-full lg:w-[50%] max-w-lg">
+                        <div className="flex items-center gap-3 mb-4 mt-6 lg:mt-0">
+                            <h1 className='font-bold text-2xl lg:text-3xl'>Himit Community</h1>
                             <span className='text-sm font-semibold px-3 py-1 bg-emerald-700 rounded-full text-white'>
                             Team Project
                             </span>

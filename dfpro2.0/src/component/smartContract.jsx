@@ -24,7 +24,7 @@ export default function SmartContract() {
             >
                 <div>
                     <h1 className="text-center text-3xl font-bold">Smart Contract Projects</h1>
-                    <p className="text-center mt-3 text-sm text-gray-300">
+                    <p className="text-center mt-3 text-[11px] lg:text-sm text-gray-300">
                         These smart contract projects reflect my ability to build secure,<br />
                         efficient, and decentralized solutions on the blockchain.
                     </p>
