@@ -14,8 +14,8 @@ export default function Service() {
                 initialOpacity={0}
                 >
                     <div>
-                        <h1 className="text-3xl font-bold">Things I Can Do for You</h1>
-                        <p className='mt-3 text-sm text-gray-300'>Passionate about technology and design, I provide services that help<br/>your brand stand out and grow in the digital world.</p>
+                        <h1 className="text-2xl lg:text-3xl font-bold">Things I Can Do for You</h1>
+                        <p className='mt-3 text-[11px] lg:text-sm text-gray-300'>Passionate about technology and design, I provide services that help<br/>your brand stand out and grow in the digital world.</p>
                         
                         <div className="flex flex-col md:flex-row justify-center gap-6 max-w-6xl mx-auto mt-10">
                             <div className="flex flex-col items-center text-center bg-[#243b55] rounded-2xl p-6 w-full md:w-[30%] shadow-lg">

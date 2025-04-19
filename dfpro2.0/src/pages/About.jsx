@@ -17,16 +17,16 @@ export default function About() {
         <div>
             <Navbar/>
 
-            <div className="flex justify-center mt-20 gap-24">
-                <div className="desc w-[47%]">
+            <div className="flex flex-col-reverse lg:flex-row justify-center gap-16 lg:gap-24 mt-10 px-4">
+                <div className="desc lg:w-[47%]">
                     <AnimatedContent
-                        distance={150}
+                        distance={120}
                         direction="horizontal"
                         reverse={false}
                         config={{ tension: 80, friction: 20 }}
                         initialOpacity={0.2}
                         animateOpacity
-                        scale={1.1}
+                        scale={1}
                         threshold={0.2}
                         >
                         <div>
@@ -35,7 +35,7 @@ export default function About() {
                                 <h4 className='text-white text-xl font-semibold'>Muhammad Daffa Al Ghifary</h4>
                             </div>
 
-                            <div className='text-white flex flex-col gap-2 mt-3'>
+                            <div className='text-white flex flex-col gap-2 mt-3 text-justify'>
                                 <p>Hi, my name is <strong>Muhammad Daffa Al Ghifary</strong>, but most people call me <strong>Daffa</strong>. 
                                     I am a passionate Front-End Web Developer with expertise in modern web technologies, 
                                     particularly React.js, Tailwind CSS, and Bootstrap. I enjoy crafting clean, 
@@ -46,8 +46,6 @@ export default function About() {
                                     understanding of Solidity and blockchain concepts. I am continuously improving my skills 
                                     to build decentralized applications (DApps) and contribute to the evolution of the web.
                                 </p>   
-                                <p>I am always eager to learn new technologies, take on challenges, and collaborate with 
-                                    like-minded developers to create impactful digital solutions.</p>
                             </div>
                         </div>
                     </AnimatedContent>
@@ -64,7 +62,7 @@ export default function About() {
                             >
                             <div className="expert mt-3">
                                 <h1 className='text-[#6e92d6] font-semibold'>My Area of Focus</h1>
-                                <div className='flex gap-3 mt-3'>
+                                <div className='flex flex-wrap gap-3 mt-3'>
                                     <ShinyText text="Front End Web Development" disabled={false} speed={3} className='custom-class' />                
                                     <ShinyText text="Web3 Enthusiast" disabled={false} speed={3} className='custom-class' />                                
                                 </div>
