@@ -49,8 +49,8 @@ export default function BrandIn() {
 
                         <div className="mt-4">
                             <h1 className="font-bold text-lg mb-2">Project Link:</h1>
-                            <a href="" className='py-1 px-3 bg-red-700 rounded-full text-md'>
-                                Under Maintenance
+                            <a href="https://dribbble.com/shots/25920153-Tourist-Attraction-Promotion-App?utm_source=Clipboard_Shot&utm_campaign=dfpro&utm_content=Tourist%20Attraction%20Promotion%20App&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=dfpro&utm_content=Tourist%20Attraction%20Promotion%20App&utm_medium=Social_Share" target="_blank"className='py-1 px-3 bg-slate-700 rounded-full text-md'>
+                                Dribble showcase
                             </a>
                         </div>
                     </div>

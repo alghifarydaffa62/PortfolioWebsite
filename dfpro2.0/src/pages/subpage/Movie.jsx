@@ -54,8 +54,8 @@ export default function Movie() {
                 
                         <div>
                             <h1 className='font-bold text-lg my-3'>Project Link:</h1>
-                            <a href="" className='py-1 px-3 bg-red-700 rounded-full text-md'>
-                                Under Maintenance
+                            <a href="https://dribbble.com/shots/25920165-Movie-Website-design?utm_source=Clipboard_Shot&utm_campaign=dfpro&utm_content=Movie%20Website%20design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=dfpro&utm_content=Movie%20Website%20design&utm_medium=Social_Share" target="_blank"className='py-1 px-3 bg-slate-700 rounded-full text-md'>
+                                Dribble showcase
                             </a>
                         </div>
                     </div>
