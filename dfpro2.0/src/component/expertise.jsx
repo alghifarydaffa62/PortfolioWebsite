@@ -30,7 +30,7 @@ export default function Expertise() {
             <FadeContent
               key={index}
               blur={true}
-              duration={1000}
+              duration={700}
               easing="ease-out"
               initialOpacity={0}
             >

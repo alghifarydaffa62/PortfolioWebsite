@@ -18,7 +18,7 @@ export default function Contact() {
 
             <FadeContent
                 blur={true}
-                duration={1000}
+                duration={700}
                 easing="ease-out"
                 initialOpacity={0}
             >
@@ -45,7 +45,7 @@ export default function Contact() {
             </FadeContent>
             <FadeContent
                 blur={true}
-                duration={1000}
+                duration={700}
                 easing="ease-out"
                 initialOpacity={0}
             >

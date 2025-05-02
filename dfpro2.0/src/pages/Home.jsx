@@ -13,8 +13,8 @@ export default function Home() {
             
             <div className="min-h-[75vh] flex flex-col items-center justify-center text-white text-center px-4 overflow-y-hidden">
                 <AnimatedContent
-                    distance={150}
-                    direction="horizontal"
+                    distance={80}
+                    direction="vertical"
                     reverse={false}
                     config={{ tension: 80, friction: 20 }}
                     initialOpacity={0.2}
@@ -35,7 +35,7 @@ export default function Home() {
                 </AnimatedContent>
                 
                 <AnimatedContent
-                    distance={150}
+                    distance={80}
                     direction="vertical"
                     reverse={false}
                     config={{ tension: 80, friction: 20 }}

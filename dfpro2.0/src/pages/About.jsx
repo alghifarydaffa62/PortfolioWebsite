@@ -20,8 +20,8 @@ export default function About() {
             <div className="flex flex-col-reverse lg:flex-row justify-center gap-16 lg:gap-24 mt-10 px-4">
                 <div className="desc lg:w-[47%]">
                     <AnimatedContent
-                        distance={120}
-                        direction="horizontal"
+                        distance={80}
+                        direction="vertical"
                         reverse={false}
                         config={{ tension: 80, friction: 20 }}
                         initialOpacity={0.2}
@@ -50,14 +50,14 @@ export default function About() {
                         </div>
                     </AnimatedContent>
                     <AnimatedContent
-                            distance={150}
-                            direction="horizontal"
+                            distance={80}
+                            direction="vertical"
                             delay={50}
                             reverse={false}
                             config={{ tension: 80, friction: 20 }}
                             initialOpacity={0.2}
                             animateOpacity
-                            scale={1.1}
+                            scale={1}
                             threshold={0.2}
                             >
                             <div className="expert mt-3">

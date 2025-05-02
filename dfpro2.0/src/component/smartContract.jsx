@@ -13,7 +13,7 @@ export default function SmartContract() {
     return(
         <section>
             <AnimatedContent
-                distance={120}
+                distance={90}
                 direction="vertical"
                 reverse={false}
                 config={{ tension: 80, friction: 20 }}
@@ -33,7 +33,7 @@ export default function SmartContract() {
 
             <FadeContent
                 blur={true}
-                duration={1000}
+                duration={700}
                 easing="ease-out"
                 initialOpacity={0}
             >

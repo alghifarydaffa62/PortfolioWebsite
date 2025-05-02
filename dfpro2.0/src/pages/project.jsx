@@ -23,7 +23,7 @@ export default function Project() {
             <div className="mt-10 px-4 md:px-10 lg:px-12 text-white">
                 <section>
                     <AnimatedContent
-                        distance={120}
+                        distance={90}
                         direction="vertical"
                         reverse={false}
                         config={{ tension: 80, friction: 20 }}
@@ -42,7 +42,7 @@ export default function Project() {
                     </AnimatedContent>
                     <FadeContent
                         blur={true}
-                        duration={1000}
+                        duration={700}
                         easing="ease-out"
                         initialOpacity={0}
                         >
