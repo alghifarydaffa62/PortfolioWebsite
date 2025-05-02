@@ -14,7 +14,7 @@ export default function About() {
     }, [])
     
     return(
-        <div>
+        <div className='overflow-x-hidden'>
             <Navbar/>
 
             <div className="flex flex-col-reverse lg:flex-row justify-center gap-16 lg:gap-24 mt-10 px-4">

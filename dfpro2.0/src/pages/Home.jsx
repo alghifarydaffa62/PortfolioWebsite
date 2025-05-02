@@ -11,7 +11,7 @@ export default function Home() {
         <div>
             <Navbar/>
             
-            <div className="min-h-[75vh] flex flex-col items-center justify-center text-white text-center px-4">
+            <div className="min-h-[75vh] flex flex-col items-center justify-center text-white text-center px-4 overflow-y-hidden">
                 <AnimatedContent
                     distance={150}
                     direction="horizontal"
