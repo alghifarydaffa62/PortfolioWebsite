@@ -17,7 +17,7 @@ export default function Social() {
                 {
                 name: 'Fiverr',
                 icon: fiverr,
-                url: 'https://www.fiverr.com/username',
+                url: 'https://www.fiverr.com/s/qD3rYLX',
                 },
 
                 {
