@@ -3,6 +3,7 @@ import github from '../assets/github.png'
 import fiverr from '../assets/fiverr.png'
 import instagram from '../assets/instagram.png'
 import linkedIn from '../assets/linkedin.png'
+import upwork from "../assets/upwork.png"
 
 export default function Social() {
     return(
@@ -32,6 +33,12 @@ export default function Social() {
                 url: 'https://www.linkedin.com/in/mdaffaalghifary',
                 },
                 
+                {
+                name: 'Upwork',
+                icon: upwork,
+                url: 'https://www.upwork.com/freelancers/~010c90ba396238e7cb?mp_source=share',
+                },
+                
             ].map((item, idx) => (
                 <a
                 key={idx}
@@ -41,7 +48,7 @@ export default function Social() {
                 className="w-[45%] sm:w-[40%] md:w-[18%] min-w-[130px] max-w-[180px] h-[130px] md:h-[150px] rounded-2xl border border-white bg-slate-800 flex flex-col items-center justify-center hover:scale-105 transition duration-300"
                 >
                     <img src={item.icon} alt={item.name} className="w-8 h-8 mb-2" />
-                    <p className="text-white font-mono text-sm">{item.name}</p>
+                    <p className="font-mono text-white text-md">{item.name}</p>
                 </a>
             ))}
         </div>
