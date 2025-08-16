@@ -10,6 +10,7 @@ import Mondsia from './pages/subpage/Mondsia'
 import Movie from './pages/subpage/Movie'
 import SC from './pages/subpage/SC'
 import SDG from './pages/subpage/SDG'
+import ETHexplorer from './pages/subpage/ETHexplorer'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='/Project/Movie' element={<Movie/>}/>
           <Route path='/Project/SC' element={<SC/>}/>
           <Route path='/Project/SDG' element={<SDG/>}/>
+          <Route path='/Project/ETHexplorer' element={<ETHexplorer/>}/>
         </Routes>
       </Router>
     </div>
