@@ -5,7 +5,7 @@ import code from '../assets/code.png'
 import uiux from '../assets/programmer.png'
 import AnimatedContent from '../animation/AnimatedContent/AnimatedContent' 
 import { Link } from 'react-router-dom'
-import Helmet from "react-helmet-async"
+import { Helmet } from "react-helmet-async"
 
 export default function Home() {
     return(
