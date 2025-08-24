@@ -12,6 +12,7 @@ import AnimatedContent from '../animation/AnimatedContent/AnimatedContent'
 import FadeContent from '../animation/FadeContent/FadeContent'
 import SmartContract from '../component/smartContract'
 import { useEffect } from 'react'
+import { Helmet } from 'react-helmet-async'
 
 export default function Project() {
     useEffect(() => {
@@ -19,7 +20,12 @@ export default function Project() {
     }, [])
     
     return(
-        <div >
+        <div>
+            <Helmet>
+                <title>Project | Daffa Al Ghifary</title>
+                <meta name="description" content="A collection of web-based projects that demonstrate my front-end skills, design sense, and focus on user experience." />
+                <meta name="keywords" content="Project Daffa Al Ghifary, Project Daffa, Daffa Al Ghifary Project" />
+            </Helmet>
             <Navbar/>
 
             <div className="px-4 mt-10 text-white md:px-10 lg:px-12">

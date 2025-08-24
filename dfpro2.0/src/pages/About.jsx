@@ -7,6 +7,7 @@ import Expertise from '../component/expertise'
 import Service from '../component/service'
 import ShinyText from '../animation/ShinyText/ShinyText'
 import { useEffect } from 'react'
+import { Helmet } from 'react-helmet-async'
 
 export default function About() {
     useEffect(() => {
@@ -15,9 +16,14 @@ export default function About() {
     
     return(
         <div className='overflow-x-hidden'>
+            <Helmet>
+                <title>About | Daffa Al Ghifary</title>
+                <meta name="description" content="Hi, my name is Muhammad Daffa Al Ghifary, but most people call me Daffa. I am a passionate Front-End Web Developer with expertise in modern web technologies" />
+                <meta name="keywords" content="About Daffa Al Ghifary, Daffa Al Ghifary Web3, Daffa Al Ghifary Blockchain" />
+            </Helmet>
             <Navbar/>
 
-            <div className="flex flex-col-reverse lg:flex-row justify-center gap-16 lg:gap-24 mt-10 px-4">
+            <div className="flex flex-col-reverse justify-center gap-16 px-4 mt-10 lg:flex-row lg:gap-24">
                 <div className="desc lg:w-[47%]">
                     <AnimatedContent
                         distance={80}
@@ -32,10 +38,10 @@ export default function About() {
                         <div>
                             <div className="name">
                                 <h4 className='text-[#6e92d6] font-semibold'>About me</h4>
-                                <h4 className='text-white text-xl font-semibold'>Muhammad Daffa Al Ghifary</h4>
+                                <h4 className='text-xl font-semibold text-white'>Muhammad Daffa Al Ghifary</h4>
                             </div>
 
-                            <div className='text-white flex flex-col gap-2 mt-3 text-justify'>
+                            <div className='flex flex-col gap-2 mt-3 text-justify text-white'>
                                 <p>Hi, my name is <strong>Muhammad Daffa Al Ghifary</strong>, but most people call me <strong>Daffa</strong>. 
                                     I am a passionate Front-End Web Developer with expertise in modern web technologies, 
                                     particularly React.js, Tailwind CSS, and Bootstrap. I enjoy crafting clean, 
@@ -60,7 +66,7 @@ export default function About() {
                             scale={1}
                             threshold={0.2}
                             >
-                            <div className="expert mt-3">
+                            <div className="mt-3 expert">
                                 <h1 className='text-[#6e92d6] font-semibold'>My Area of Focus</h1>
                                 <div className='flex flex-wrap gap-3 mt-3'>
                                     <ShinyText text="Front End Web Development" disabled={false} speed={3} className='custom-class' />                
@@ -101,7 +107,7 @@ export default function About() {
             <Expertise/>
             <Service/>
 
-            <footer className="text-center py-4 text-sm text-gray-400">
+            <footer className="py-4 text-sm text-center text-gray-400">
             © 2025 dfpro2.0 . All Rights Reserved
             </footer>
         </div>
