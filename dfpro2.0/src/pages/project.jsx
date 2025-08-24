@@ -7,6 +7,7 @@ import community from '../assets/community.png'
 import water from '../assets/water.png'
 import movie from '../assets/movie.png'
 import explorer from "../assets/explorer.png"
+import escrow from "../assets/descrow.png"
 import AnimatedContent from '../animation/AnimatedContent/AnimatedContent'
 import FadeContent from '../animation/FadeContent/FadeContent'
 import SmartContract from '../component/smartContract'
@@ -55,7 +56,8 @@ export default function Project() {
                                 { src: SC, title: "Smanisda Cup", link: "/Project/SC" },
                                 { src: brandIn, title: "Brand-in Aja", link: "/Project/BrandIn" },
                                 { src: movie, title: "Movie Hunter", link: "/Project/Movie" },
-                                { src: explorer, title: "Ethereum Block Explorer", link: "/Project/ETHexplorer" }
+                                { src: explorer, title: "Ethereum Block Explorer", link: "/Project/ETHexplorer" },
+                                { src: escrow, title: "Escrow Decentralized App", link: "/Project/EscrowdApp" },
                             ].map((item, index) => (
                                 <a
                                     href={item.link}
