@@ -12,15 +12,31 @@ export default function Home() {
         <div>
             <Helmet>
                 <title>Daffa Al Ghifary</title>
-                <meta name="description" content="Welcome to my portfolio website! I'm Daffa Ghifary, a frontend developer passionate about React, Web3, and blockchain" />
-                <meta name="keywords" content="Daffa Al Ghifary, M Daffa Al Ghifary, Frontend Developer, React, Web3, Ethereum, UI/UX, Portfolio" />
+                <meta name="description" content="Welcome to my portfolio website! I'm Muhammad Daffa Al Ghifary — frontend developer passionate about React, Web3, and blockchain." />
+                <meta name="keywords" content="Daffa Al Ghifary, Muhammad Daffa Al Ghifary, Frontend Developer, React, Web3, Ethereum, Portfolio" />
                 <meta property="og:title" content="Daffa Al Ghifary | Portfolio Website" />
-                <meta
-                property="og:description"
-                content="Explore my portfolio showcasing projects in React, Web3 (Ethereum), and UI/UX design."
-                />
+                <meta property="og:description" content="Explore my portfolio showcasing projects in React, Web3 (Ethereum), and UI/UX design." />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://dfpro20.vercel.app/" />
+                <link rel="canonical" href="https://dfpro20.vercel.app/" />
+                {/* Structured data for person */}
+                <script type="application/ld+json">{`
+                  {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Muhammad Daffa Al Ghifary",
+                    "url": "https://dfpro20.vercel.app/",
+                    "sameAs": [
+                      "https://www.instagram.com/df_webdev",
+                      "https://www.fiverr.com/s/qD3rYLX",
+                      "https://github.com/alghifarydaffa62",
+                      "https://www.linkedin.com/in/mdaffaalghifary",
+                      "https://www.upwork.com/freelancers/~010c90ba396238e7cb?mp_source=share"
+                    ],
+                    "jobTitle": "Frontend Developer",
+                    "description": "Frontend developer with experience in React, Tailwind, and Web3."
+                  }
+                `}</script>
             </Helmet>
             <Navbar/>
             

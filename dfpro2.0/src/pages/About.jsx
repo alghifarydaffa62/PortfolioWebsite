@@ -18,8 +18,25 @@ export default function About() {
         <div className='overflow-x-hidden'>
             <Helmet>
                 <title>About | Daffa Al Ghifary</title>
-                <meta name="description" content="Hi, my name is Muhammad Daffa Al Ghifary, but most people call me Daffa. I am a passionate Front-End Web Developer with expertise in modern web technologies" />
-                <meta name="keywords" content="About Daffa Al Ghifary, Daffa Al Ghifary Web3, Daffa Al Ghifary Blockchain" />
+                <meta name="description" content="Hi, my name is Muhammad Daffa Al Ghifary — passionate Front-End Web Developer (React, Tailwind, Web3)." />
+                <meta name="keywords" content="About Daffa Al Ghifary, Daffa Al Ghifary Web3, frontend developer" />
+                <link rel="canonical" href="https://dfpro20.vercel.app/About" />
+                <script type="application/ld+json">{`
+                  {
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Muhammad Daffa Al Ghifary",
+                    "url": "https://dfpro20.vercel.app/About",
+                    "sameAs": [
+                      "https://www.instagram.com/df_webdev",
+                      "https://github.com/alghifarydaffa62",
+                      "https://www.linkedin.com/in/mdaffaalghifary"
+                    ],
+                    "image": "https://dfpro20.vercel.app/src/assets/me.jpg",
+                    "jobTitle": "Frontend Developer",
+                    "description": "Front-End Web Developer focusing on React, UI/UX, and Web3."
+                  }
+                `}</script>
             </Helmet>
             <Navbar/>
 

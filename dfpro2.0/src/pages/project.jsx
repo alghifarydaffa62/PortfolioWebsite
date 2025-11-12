@@ -26,6 +26,7 @@ export default function Project() {
                 <title>Project | Daffa Al Ghifary</title>
                 <meta name="description" content="A collection of web-based projects that demonstrate my front-end skills, design sense, and focus on user experience." />
                 <meta name="keywords" content="Project Daffa Al Ghifary, Project Daffa, Daffa Al Ghifary Project" />
+                <link rel="canonical" href="https://dfpro20.vercel.app/Project" />
             </Helmet>
             <Navbar/>
 
