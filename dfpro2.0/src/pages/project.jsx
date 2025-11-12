@@ -11,6 +11,7 @@ import escrow from "../assets/descrow.png"
 import AnimatedContent from '../animation/AnimatedContent/AnimatedContent'
 import FadeContent from '../animation/FadeContent/FadeContent'
 import SmartContract from '../component/smartContract'
+import nftix from "../assets/nftix.png"
 import { useEffect } from 'react'
 import { Helmet } from 'react-helmet-async'
 
@@ -64,6 +65,7 @@ export default function Project() {
                                 { src: movie, title: "Movie Hunter", link: "/Project/Movie" },
                                 { src: explorer, title: "Ethereum Block Explorer", link: "/Project/ETHexplorer" },
                                 { src: escrow, title: "Escrow Decentralized App", link: "/Project/EscrowdApp" },
+                                { src: nftix, title: "NFT Ticketing System", link: "/Project/NFTix" },
                             ].map((item, index) => (
                                 <a
                                     href={item.link}

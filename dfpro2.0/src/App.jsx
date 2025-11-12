@@ -12,6 +12,7 @@ import SC from './pages/subpage/SC'
 import SDG from './pages/subpage/SDG'
 import ETHexplorer from './pages/subpage/ETHexplorer'
 import Descrow from './pages/subpage/descrow'
+import NFTix from './pages/subpage/NFTix';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path='/Project/SDG' element={<SDG/>}/>
           <Route path='/Project/ETHexplorer' element={<ETHexplorer/>}/>
           <Route path='/Project/EscrowdApp' element={<Descrow/>}/>
+          <Route path='/Project/NFTix' element={<NFTix/>}/>
         </Routes>
       </Router>
     </div>
