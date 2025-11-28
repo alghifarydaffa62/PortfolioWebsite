@@ -58,15 +58,15 @@ export default function Project() {
                         >
                         <div className="flex flex-wrap justify-center gap-4 mt-8 mb-10">
                             {[
+                                { src: nftix, title: "NFT Ticketing System", link: "/Project/NFTix" },
+                                { src: explorer, title: "Ethereum Block Explorer", link: "/Project/ETHexplorer" },
+                                { src: escrow, title: "Escrow Decentralized App", link: "/Project/EscrowdApp" },
                                 { src: community, title: "Community Website", link: "/Project/HimitCommunity" },
                                 { src: mondsia, title: "My Wonderful Indonesia", link: "/Project/Mondsia" },
                                 { src: water, title: "Life Below Water", link: "/Project/SDG" },
                                 { src: SC, title: "Smanisda Cup", link: "/Project/SC" },
                                 { src: brandIn, title: "Brand-in Aja", link: "/Project/BrandIn" },
                                 { src: movie, title: "Movie Hunter", link: "/Project/Movie" },
-                                { src: explorer, title: "Ethereum Block Explorer", link: "/Project/ETHexplorer" },
-                                { src: escrow, title: "Escrow Decentralized App", link: "/Project/EscrowdApp" },
-                                { src: nftix, title: "NFT Ticketing System", link: "/Project/NFTix" },
                             ].map((item, index) => (
                                 <a
                                     href={item.link}
