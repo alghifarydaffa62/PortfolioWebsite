@@ -12,6 +12,7 @@ import AnimatedContent from '../animation/AnimatedContent/AnimatedContent'
 import FadeContent from '../animation/FadeContent/FadeContent'
 import SmartContract from '../component/smartContract'
 import nftix from "../assets/nftix.png"
+import pop from "../assets/pop.png"
 import { useEffect } from 'react'
 import { Helmet } from 'react-helmet-async'
 
@@ -58,6 +59,7 @@ export default function Project() {
                         >
                         <div className="flex flex-wrap justify-center gap-4 mt-8 mb-10">
                             {[
+                                { src: pop, title: "Proof of Project", link: "/Project/PoP" },
                                 { src: nftix, title: "NFT Ticketing System", link: "/Project/NFTix" },
                                 { src: explorer, title: "Ethereum Block Explorer", link: "/Project/ETHexplorer" },
                                 { src: escrow, title: "Escrow Decentralized App", link: "/Project/EscrowdApp" },
