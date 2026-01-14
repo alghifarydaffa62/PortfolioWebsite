@@ -5,15 +5,11 @@ import About from './pages/About'
 import Project from './pages/project'
 import Contact from './pages/contact'
 import Community from './pages/subpage/Community'
-import BrandIn from './pages/subpage/BrandIn'
-import Mondsia from './pages/subpage/Mondsia'
-import Movie from './pages/subpage/Movie'
-import SC from './pages/subpage/SC'
-import SDG from './pages/subpage/SDG'
 import ETHexplorer from './pages/subpage/ETHexplorer'
 import Descrow from './pages/subpage/descrow'
 import NFTix from './pages/subpage/NFTix';
 import PoP from './pages/subpage/PoP'
+import Flux from './pages/subpage/Flux'
 
 function App() {
   return (
@@ -25,15 +21,11 @@ function App() {
           <Route path="/Project" element={<Project/>}/>
           <Route path="/Contact" element={<Contact/>}/>
           <Route path='/Project/HimitCommunity' element={<Community/>}/>
-          <Route path='/Project/BrandIn' element={<BrandIn/>}/>
-          <Route path='/Project/Mondsia' element={<Mondsia/>}/>
-          <Route path='/Project/Movie' element={<Movie/>}/>
-          <Route path='/Project/SC' element={<SC/>}/>
-          <Route path='/Project/SDG' element={<SDG/>}/>
           <Route path='/Project/ETHexplorer' element={<ETHexplorer/>}/>
           <Route path='/Project/EscrowdApp' element={<Descrow/>}/>
           <Route path='/Project/NFTix' element={<NFTix/>}/>
           <Route path='/Project/PoP' element={<PoP/>}/>
+          <Route path='/Project/Flux' element={<Flux/>}/>
         </Routes>
       </Router>
     </div>
