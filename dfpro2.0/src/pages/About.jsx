@@ -59,16 +59,16 @@ export default function About() {
                             </div>
 
                             <div className='flex flex-col gap-2 mt-3 text-justify text-white'>
-                                <p>Hi, my name is <strong>Muhammad Daffa Al Ghifary</strong>, but most people call me <strong>Daffa</strong>. 
-                                    I am a passionate Front-End Web Developer with expertise in modern web technologies, 
-                                    particularly React.js, Tailwind CSS, and Bootstrap. I enjoy crafting clean, 
-                                    responsive, and user-friendly web interfaces that provide a seamless user experience.
+                                <p>
+                                    Hi, I'm <strong>Muhammad Daffa Al Ghifary</strong> (Daffa). 
+                                    I bridge the gap between complex blockchain logic and intuitive user experiences. 
+                                    As a <strong>Web3 Frontend Engineer</strong>, I specialize in crafting responsive dApps in a various field such as <strong>DeFi, NFTs, and Real World Assets (RWA)</strong>.
                                 </p>
-                                <p>Currently, I am expanding my knowledge into <strong>Web3 development</strong>, as I believe blockchain 
-                                    technology is the future. While I am still in the learning phase, I have gained a solid 
-                                    understanding of Solidity and blockchain concepts. I am continuously improving my skills 
-                                    to build decentralized applications (DApps) and contribute to the evolution of the web.
-                                </p>   
+                                <p>
+                                    What sets me apart is my ability to handle the full dApp lifecycle. 
+                                    I don't just build interfaces; I also engineer <strong>secure smart contracts</strong> using Hardhat or Foundry. 
+                                    This versatility allows me to deliver end-to-end decentralized solutions where the frontend and blockchain communicate perfectly.
+                                </p>
                             </div>
                         </div>
                     </AnimatedContent>
@@ -87,7 +87,7 @@ export default function About() {
                                 <h1 className='text-[#6e92d6] font-semibold'>My Area of Focus</h1>
                                 <div className='flex flex-wrap gap-3 mt-3'>
                                     <ShinyText text="Front End Web Development" disabled={false} speed={3} className='custom-class' />                
-                                    <ShinyText text="Web3 Enthusiast" disabled={false} speed={3} className='custom-class' />                                
+                                    <ShinyText text="Web3 Development" disabled={false} speed={3} className='custom-class' />                                
                                 </div>
                             </div>            
                     </AnimatedContent>

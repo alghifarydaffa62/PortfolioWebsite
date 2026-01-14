@@ -1,30 +1,36 @@
-import '../App.css';
-import reactJS from '../assets/React.png';
-import reactBoostrap from '../assets/React-Bootstrap.png';
-import solidity from '../assets/Solidity.png';
-import tailwind from '../assets/Tailwind-CSS.png';
-import JS from '../assets/JavaScript.png';
-import bootstrap from '../assets/Bootstrap.png';
-import alchemy from "../assets/alchemy.jpeg";
-import zustand from "../assets/zustand.svg";
-import hardhat from "../assets/Hardhat.png";
-import foundry from "../assets/foundry.png";
-import ethers from "../assets/ethers.png";
-import FadeContent from '../animation/FadeContent/FadeContent';
+import '../App.css'
+import reactJS from '../assets/React.png'
+import reactBoostrap from '../assets/React-Bootstrap.png'
+import solidity from '../assets/Solidity.png'
+import tailwind from '../assets/Tailwind-CSS.png'
+import JS from '../assets/JavaScript.png'
+import alchemy from "../assets/alchemy.jpeg"
+import zustand from "../assets/zustand.svg"
+import hardhat from "../assets/Hardhat.png"
+import foundry from "../assets/foundry.png"
+import ethers from "../assets/ethers.png"
+import wagmi from "../assets/wagmi.png"
+import typescript from "../assets/typescript.png"
+import rainbowWallet from "../assets/rainbow.png"
+import nextJS from "../assets/nextJS.png"
+import FadeContent from '../animation/FadeContent/FadeContent'
 
 export default function Expertise() {
   const techs = [
     { name: "React", img: reactJS },
+    { name: "Next JS", img: nextJS },
+    { name: "Wagmi", img: wagmi },
     { name: "React Bootstrap", img: reactBoostrap },
     { name: "Tailwind", img: tailwind },
     { name: "JavaScript", img: JS },
-    { name: "Bootstrap", img: bootstrap },
+    { name: "TypeScript", img: typescript },
     { name: "Zustand", img: zustand },
     { name: "Solidity", img: solidity },
     { name: "Hardhat", img: hardhat },
     { name: "Foundry", img: foundry },
     { name: "ethers.js", img: ethers },
     { name: "Alchemy", img: alchemy },
+    { name: "RainbowKit", img: rainbowWallet },
   ];
 
   return (
@@ -48,7 +54,7 @@ export default function Expertise() {
                 <img
                   src={tech.img}
                   alt={tech.name}
-                  className="object-contain w-12 h-12 mb-2"
+                  className="object-contain mb-3 h-13 w-13"
                 />
                 <p className="text-sm text-gray-400">{tech.name}</p>
               </div>
